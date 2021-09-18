@@ -1,0 +1,82 @@
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Press Start 2P", "sans-serif";
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 2em;
+  background-image: linear-gradient(to left, blue, red);
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.container {
+  display: block-box;
+  background-color: black;
+  border: 1px dotted white;
+  margin: auto;
+  padding: 1.5em;
+}
+
+/* PLAYER'S BAR */
+.bar {
+  /*block*/
+  border: 3px solid white;
+  margin: 40px 10px 40px 10px;
+  height: 70px;
+  background-color: red;
+}
+#player1 {
+  background-color: blue;
+  width: 50%;
+  height: 100%;
+}
+.block {
+  border: 3px solid white;
+  border-radius: 3px;
+}
+
+/* RESET BUTTON */
+.reset {
+  /*block*/
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 20px;
+  margin: auto;
+  padding: 13px;
+}
+.reset:hover {
+  background-color: white;
+  color: black;
+}
+.reset:active {
+  background-color: grey;
+}
+
+/* STOPWATCH */
+#stopwatch {
+  color: black;
+  margin: 2em;
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
+}
